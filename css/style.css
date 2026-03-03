@@ -316,6 +316,16 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   gap: 6px;
   padding: 0 12px;
 }
+
+/* Quick filters in main content */
+.quick-filters {
+  margin-bottom: 24px;
+}
+
+.quick-filters .filter-tags {
+  padding: 0;
+  gap: 8px;
+}
 .ftag {
   background: var(--bg);
   border: 1px solid var(--border);
